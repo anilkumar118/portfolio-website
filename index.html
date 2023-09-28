@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/974c2a4973.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="none,noarchive" />
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/photo.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#internship">Internship</a></li>
+                    <li><a href="#acheivements">Acheivements</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer || Bachelor of Science in Computer Science and Engineering Spec With Cyber Security </p>
+                <h1>Hi, I'm <span>Nenavath Anil Kumar </span><br>from Hyderabad, Telangana, India.</h1>
+            </div>
+        </div>
+    </div>
+    <!--------------------------about----------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/anil.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1><br><br>
+                    <p class="para-design"> &nbsp;&nbsp;&nbsp;&nbsp;I'm a Under graduation student I'm passionate about web development and I'm very passionate and dedicated to my work. I'm a beginner and I don't have any experience, but I have acquired the skill and knowledge
+                        necessary to make projects. [html, CSS, JavaScript] believe in continuous learning and enjoy tackling challenges to improve my skills further..
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Basic C Language </span></li>
+                            <li><span> HTML,CSS & Basic Javascript(js) </span></li>
+                            <li><span>Basic Python </span></li>
+                            <li><span>SQLi Web attacks </span></li>
+                            <li><span> Genartive AI </span></li>
+                            <li><span>Large Language Models(LLM) </span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Bharat Intern</span>
+                                <br>Bharat Virtual Internship Program in Basics web Development
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Rashtriya Raksha University - Lavad, Gujarat.</span>
+                                <br>Bachelor of Science in Computer Science and Engineering Spec With Cyber Security.<br>2021-2025
+                            </li>
+                            <li><span>Telangana Tribal Welfare Residential Junior College - jinnaram,Sangareddy,Telangana. </span>
+                                <br>Intermediate <br> 2019-2021
+                            </li>
+                            <li><span> Telangana State Model School - Chegunta, Medak,Telangana.</span>
+                                <br>State Board, Student <br>2015-2019
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------------------services---------------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design/Development</h2>
+                    <p>Seeing for frontend developer/designer role. I am good at designing I'm very passionate and dedicated to my work. I have acquired the skill and knowledge necessary to make projects. [html, CSS, JavaScript] believe in continuous learning
+                        and enjoy. "Passionate about creating visually stunning and user-friendly websites. Experienced in crafting responsive and engaging designs for web applications</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>Python</h2>
+                    <p>Experienced with Python basics programming and also capable of developing small applications and scripts to solve various problems.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2> SQLinjections </h2>
+                    <p> I' am familiar with solving queries using SQL and I can Create and Manipulate the Database and also improperly sanitized user input to manipulate SQL queries in web attacks which leads to unauthorized access, data breaches, and potentially
+                        compromise your database's security. </p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------------------------portfolio------------------ -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Web Projects...</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/images (2).jpeg">
+                    <div class="layer">
+                        <h3>AI CHESS GAME</h3>
+                        <p>This is a simple chess engine/interface created using flask.uses chessboard.js and chess.js for the logic of the frontend and python chess for the logic of the backend chessboard.All calculation is done on the backend using python.
+                            Inorder to run this application on your own machine, please install flask and python chess.
+                        </p>
+                        <a href="https://github.com/anilkumar118/anil-AI-chess-game.git" target="_blank">
+                            <i class="fa-regular fa-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/prof.jpg">
+                    <div class="layer">
+                        <h3>Personal Portfolio</h3>
+                        <p>Personal Portfolio express about our professionality and our dreams. Nowadays every professional employee needs personal portfolio.
+                        </p>
+                        <a href="https://github.com/anilkumar118/personal-portfolio-website.git" target="_blank">
+                            <i class="fa-regular fa-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Picture2.png">
+                    <div class="layer">
+                        <h3>Netflix Homepage</h3>
+                        <p>For movie lovers Netflix is the super perfect plotform to see all type of movies, series, short films etc...
+                        </p>
+                        <a href="https://github.com/anilkumar118/netflix.git" target="_blank">
+                            <i class="fa-regular fa-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Data Analytics Projects...</h1>
+            <div class="work-list">
+                <div class="work1">
+                    <img src="https://res.cloudinary.com/myselfvenkatesh/image/upload/v1694613889/Varadhi_Store_Sales_Data_igkm95.png">
+                    <div class="layer">
+                        <h3>Varadhi Store Data Analysis Using Excel</h3>
+                        <a href="https://github.com/ChowhanVenkatesh/Varadhi_Store-Data-Analysis-using-Excel.git" target="_blank">
+                            <i class="fa-solid fa-fire"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work1">
+                    <img src="https://res.cloudinary.com/myselfvenkatesh/image/upload/v1694613611/Road_Accident_Dashboard_dz37te.png">
+                    <div class="layer">
+                        <h3> Road Accident Dashboard </h3>
+                        <a href="https://github.com/ChowhanVenkatesh/Using_Excel_to_Create_Road_Accident_Dashboard.git" target="_blank">
+                            <i class="fa-solid fa-fire"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work1">
+                    <img src="https://res.cloudinary.com/myselfvenkatesh/image/upload/v1694335260/UPCOMING_ybhm1u.png">
+                    <div class="layer">
+                        <h4>October 2023</h4>
+                        <a href="#">
+                            <i class="fa-solid fa-fire"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work1">
+                    <img src="https://res.cloudinary.com/myselfvenkatesh/image/upload/v1694335260/UPCOMING_ybhm1u.png">
+                    <div class="layer">
+                        <h4>October 2023</h4>
+                        <a href="#">
+                            <i class="fa-solid fa-fire"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work1">
+                    <img src="https://res.cloudinary.com/myselfvenkatesh/image/upload/v1694335260/UPCOMING_ybhm1u.png">
+                    <div class="layer">
+                        <h4>November 2023</h4>
+                        <a href="#">
+                            <i class="fa-solid fa-fire"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------------------- Internship Images ------------------------->
+    <div id="internship">
+        <div class="container">
+            <h2 class="sub-title">Internship Images</h2>
+            <div class="image-list">
+                <div>
+                    <img src="" class="image">
+                </div>
+
+                <div>
+                    <img src="" class="image">
+                </div>
+
+                <div>
+                    <img src="" class="image">
+                </div>
+
+                <div>
+                    <img src="" class="image">
+                </div>
+            </div>
+            <a href="#" class="btn future ">See More</a>
+        </div>
+    </div>
+    <!-- ---------------------------------Acheivements------------------------->
+
+    <div id="Acheivements">
+        <div class="container">
+            <h1 class="sub-title">Acheivements...</h1>
+            <h1 class="supersub-title">BADGES</h1>
+            <div class="acheivements-list">
+                <div class="acheivements">
+                    <img src="images/badge.jpg">
+                    <div class="layer">
+                        <h3> SQLi Badge </h3>
+                        <p>This badge signifies my dedication to mastering SQL, a fundamental skill in the world of data and database management. It represents my ability to extract valuable insights from data and contribute to data-driven decision-making..
+                        </p>
+                        <a href=" https://lnkd.in/dBeExu9u">
+                            <i class="fa-regular fa-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="acheivements">
+                    <img src="images/cisco badge.jpg">
+                    <div class="layer">
+                        <h3>Cyber security Essentials Badge </h3>
+                        <p>This badge signifies that principles of Confidentiality, Integrity, and Availability used by White Hats to defend networks in domain of cyber security.
+                        </p>
+                        <a href=" https://www.credly.com/badges/a1abd7cf-56d8-4d5c-af23-446f76b00144">
+                            <i class="fa-regular fa-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="acheivements">
+                    <img src="images/Generative AI.png">
+                    <div class="layer">
+                        <h3>Generative AI Badge </h3>
+                        <p> Generative Artificial Intelligence badge signifies that what artificial intelligence techniques and models that focus on generating new data, content, or information that is similar to, existing data
+                        </p>
+                        <a href=" https://www.cloudskillsboost.google/public_profiles/febd9488-b3b8-4f78-bc52-4d3fcf944148/badges/4897026?&utm_">
+                            <i class="fa-regular fa-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="acheivements">
+                    <img src="images/LLM.png">
+                    <div class="layer">
+                        <h3>Large Language Model Badge </h3>
+                        <p>Large language models badge ,signifies that how artificial intelligence models that have been trained on massive amounts of text data to understand and generate human-like text.
+                        </p>
+                        <a href=" https://www.cloudskillsboost.google/public_profiles/febd9488-b3b8-4f78-bc52-4d3fcf944148/badges/4897765">
+                            <i class="fa-regular fa-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="Acheivementrs">
+        <div class="container">
+            <h1 class="sub-title">Certificates...</h1>
+            <div class="acheivements-list">
+                <div class="acheivements1">
+                    <img src="images/cti.jpg">
+                    <div class="layer">
+                        <h3>Cyber Threat Intelligence</h3>
+                        <a href="https://app.onlinecoursehost.com/certificate-proof/EWCMtAhS9bQgqAhVHuI5wJwrR5r1/JmR4TGxfEW8NXfud0hpr/u8ek8tkSBnTj1fZJPwt5mT7tmy13">
+                            <i class="fa-solid fa-fire"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="acheivements1">
+                    <img src="images/sqli.jpg">
+                    <div class="layer">
+                        <h3> SQLinjections- Web Attacks </h3>
+                        <a href="https://app.onlinecoursehost.com/certificate-proof/EWCMtAhS9bQgqAhVHuI5wJwrR5r1/JmR4TGxfEW8NXfud0hpr/u8ek8tkSBnTj1fZJPwt5mT7tmy13">
+                            <i class="fa-solid fa-fire"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------------------------contact------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>nenavathanilkumar8@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+91 8008423720</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100086273689656&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/NenavathAnilKu8"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/anilkumar__016/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/anil-kumar-n-316692233/"><i class=" fa-brands fa-linkedin "></i></a>
+                        </a>
+                        <a href="https://github.com/ChowhanVenkatesh" target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your name ">
+                        <input type="text" name="email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @ 2023.</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>

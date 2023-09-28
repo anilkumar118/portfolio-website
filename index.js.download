@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="https://kit.fontawesome.com/974c2a4973.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="index.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+<meta name="robots" content="none,noarchive"/>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="https://res.cloudinary.com/myselfvenkatesh/image/upload/v1689419302/logo_fkmdzt.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#internship">Internship</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer || Bachelor of Science in Transportation Technology </p>
+                <h1>Hey Hi, I'm <span>Chowhan Venkatesh </span><br>from Hyderabad, Telangana, India.</h1>
+            </div>
+        </div>
+    </div>
+    <!--------------------------about----------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="https://res.cloudinary.com/myselfvenkatesh/image/upload/v1689419359/profile_aqh8dd.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1><br><br>
+                    <p class="para-design"> &nbsp;&nbsp;&nbsp;&nbsp;I am currently pursuing my Bachelor's degree in Transportation Technology - BSc (2021-24). I have always dreamed of a career in technology. Initially, I wanted to pursue a BTech in Computer Science after completing my 12th standard. However, due to the pandemic, I decided that obtaining a single graduate certificate would save me a year of time. Therefore, I chose to pursue this degree. <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; To achieve my dream tech career, I have developed a planned curriculum outlining the skills and knowledge I want to acquire. I am currently following this curriculum to enhance my learning. <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I am an ambitious and independent young man within my family, constantly contemplating my career path and seeking ways to improve both my personal and professional life. I dedicate my time to upskilling in various tech skills and engage in regular practice to enhance my professional profile.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span> HTML & CSS </span></li>
+                            <li><span>Basic Python </span></li>
+                            <li><span>Structured Query Language (SQL) </span></li>
+                            <li><span> MS Office </span></li>
+                            <li><span> Power BI </span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Bharat Intern</span>
+                                <br>Bharat Virtual Internship Program
+                            </li>
+                            <li><span>Ojaska Private Limited Company at T-HUB </span>
+                                <br> Operations and Marketing Internship.
+                            </li>
+                            <li><span>Secundrabad DRM Office-South Central Railways (SCR)</span>
+                                <br>IT Intigretion in Railway Sector Internship
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Gati Shakti Vishwavidyalayala - Vadodara, Gujarat.</span>
+                                <br>Bachelor of Science, Transportation Technology.<br>2021-2024
+                            </li>
+                            <li><span>Telangana Tribal Welfare Residential Junior College - Kulkacherla,Vikarabad. </span>
+                                <br>Intermediate <br> 2019-2021
+                            </li>
+                            <li><span> Governement High School - Chukkapur, Talakonda Pally, Ranga Reddy.</span>
+                                <br>State Board, Student <br>2007-2019
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------------------services---------------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design/Development</h2>
+                    <p>Seeing for frontend developer/designer role.
+                        I am good at designing and femiliar with good projects.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>Python</h2>
+                    <p>I am femiliar with python basics and I will Solve Basic problems
+                        with good and meaningful logic.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2> MYSQL </h2>
+                    <p> I will sloves different queries using SQL. I can Create and Manage Database.
+                        Learned from "Apna College" Youtube Channel. Thank You Shradha ma'am. </p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------------------------portfolio------------------ -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Web Projects...</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="https://res.cloudinary.com/myselfvenkatesh/image/upload/v1689419427/amazon_spz8e6.png">
+                    <div class="layer">
+                        <h3>E-Commerce website</h3>
+                        <p>The website helps you to buy and sell yoour goods and services online.
+                            Visit the website for your online shopping experience.
+                        </p>
+                        <a href="https://github.com/ChowhanVenkatesh/Amazon_Clone.git" target="_blank">
+                            <i class="fa-regular fa-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://res.cloudinary.com/myselfvenkatesh/image/upload/v1689419302/logo_fkmdzt.jpg">
+                    <div class="layer">
+                        <h3>Personal Portfolio</h3>
+                        <p>Personal Portfolio express about our professionality and our dreams.
+                            Nowadays every professional employee needs personal portfolio.
+                        </p>
+                        <a href="https://github.com/ChowhanVenkatesh/Personal_Portfolio.git" target="_blank">
+                            <i class="fa-regular fa-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://res.cloudinary.com/myselfvenkatesh/image/upload/v1689419505/netflix_dnxyae.jpg">
+                    <div class="layer">
+                        <h3>Netflix Clone</h3>
+                        <p>For movie lovers Netflix is the super perfect plotform to see all
+                            type of movies, series, short films etc...
+                        </p>
+                        <a href="https://github.com/ChowhanVenkatesh/Netflix_Clone.git" target="_blank">
+                            <i class="fa-regular fa-up-right-from-square"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Data Analytics Projects...</h1>
+            <div class="work-list">
+                <div class="work1">
+                    <img src="https://res.cloudinary.com/myselfvenkatesh/image/upload/v1694613889/Varadhi_Store_Sales_Data_igkm95.png">
+                    <div class="layer">
+                        <h3>Varadhi Store Data Analysis Using Excel</h3>
+                        <a href="https://github.com/ChowhanVenkatesh/Varadhi_Store-Data-Analysis-using-Excel.git" target="_blank">
+                            <i class="fa-solid fa-fire"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work1">
+                    <img src="https://res.cloudinary.com/myselfvenkatesh/image/upload/v1694613611/Road_Accident_Dashboard_dz37te.png">
+                    <div class="layer">
+                        <h3> Road Accident Dashboard </h3>
+                        <a href="https://github.com/ChowhanVenkatesh/Using_Excel_to_Create_Road_Accident_Dashboard.git" target="_blank">
+                            <i class="fa-solid fa-fire"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work1">
+                    <img src="https://res.cloudinary.com/myselfvenkatesh/image/upload/v1694335260/UPCOMING_ybhm1u.png">
+                    <div class="layer">
+                        <h4>October 2023</h4>
+                        <a href="#">
+                            <i class="fa-solid fa-fire"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work1">
+                    <img src="https://res.cloudinary.com/myselfvenkatesh/image/upload/v1694335260/UPCOMING_ybhm1u.png">
+                    <div class="layer">
+                        <h4>October 2023</h4>
+                        <a href="#">
+                            <i class="fa-solid fa-fire"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work1">
+                    <img src="https://res.cloudinary.com/myselfvenkatesh/image/upload/v1694335260/UPCOMING_ybhm1u.png">
+                    <div class="layer">
+                        <h4>November 2023</h4>
+                        <a href="#">
+                            <i class="fa-solid fa-fire"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------------------- Internship Images ------------------------->
+    <div id="internship">
+        <div class="container">
+            <h2 class="sub-title">Internship Images</h2>
+            <div class="image-list">
+                <div>
+                    <img src="https://res.cloudinary.com/myselfvenkatesh/image/upload/v1689419578/intern-1_xjr0bx.jpg" class="image">
+                </div>
+
+                <div>
+                    <img src="https://res.cloudinary.com/myselfvenkatesh/image/upload/v1689419613/intern-2_b9rfom.jpg" class="image">
+                </div>
+
+                <div>
+                    <img src="https://res.cloudinary.com/myselfvenkatesh/image/upload/v1689419649/intern-3_jpqxwz.jpg" class="image">
+                </div>
+
+                <div>
+                    <img src="https://res.cloudinary.com/myselfvenkatesh/image/upload/v1689419689/intern-4_gzy6uv.jpg" class="image">
+                </div>
+            </div>
+            <a href="#" class="btn future ">See More</a>
+        </div>
+    </div>
+    <!-- ---------------------------------contact------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>myselfvenkatesh9@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+91 7989154452</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100067432751824&mibextid=ZbWKwL" target="_blank">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="https://twitter.com/PalthyavthV?t=KkOQFMbnvgEP0G8tpSBA9w&s=09" target="_blank">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="https://instagram.com/venkatesh_chowhan?igshid=ZDc4ODBmNjlmNQ==" target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/pathlavathvenkatesh-/" target="_blank">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/ChowhanVenkatesh" target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your name required">
+                        <input type="text" name="email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @ Concepts learned from "Apna College" Youtube Channel.</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+<script src="index.js"></script>
+</body>
+
+</html>
